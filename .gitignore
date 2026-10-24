@@ -1,45 +1,5 @@
-# Dependencies
-node_modules/
-.pnpm-store/
-
-# Build output
-dist/
-dist-ssr/
-build/
-*.tsbuildinfo
-
-# Logs
-logs/
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
-
-# Cache / tooling
-.cache/
-.turbo/
-coverage/
-.vite/
-.eslintcache
-
-# Environment
-.env
-.env.local
-.env.*.local
-*.local
-
-# Editor / OS
-.vscode/*
-!.vscode/extensions.json
-.idea/
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-
-# Local release artifacts
-brolife-source.zip
+# Intentionally permissive: this repository is a full project snapshot.
+# Nothing is excluded — including node_modules/, build output and archives,
+# as explicitly requested. Platform-internal files that live outside the
+# project (session state and credential stores in the workspace root) are
+# not part of this project and are not mirrored here.
